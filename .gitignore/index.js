@@ -23,7 +23,7 @@ bot.on('message', message => {
         var embed = new Discord.RichEmbed()
             .setTitle("PrisonRP")
             .setDescription("Nom : ----- \n IP : --.---.--.--- \n Slots : 50")
-            .setThumbnail("https://image.noelshack.com/fichiers/2018/32/7/1534071015-icons8-prisonnier-100-1.png")
+            .setThumbnail("https://image.noelshack.com/fichiers/2018/32/7/1534104118-icons8-utilisateur-100.png")
             .setColor("0xFFFF00")
         message.channel.send(embed);
         var embed = new Discord.RichEmbed()
