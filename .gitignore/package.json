@@ -1,0 +1,14 @@
+{
+  "name": "ameniabot",
+  "version": "1.0.0",
+  "description": "Bot pour le serveur de jeu AmeniaRP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TheGmader ;)",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.0"
+  }
+}
