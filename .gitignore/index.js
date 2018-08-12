@@ -27,6 +27,12 @@ bot.on('message', message => {
             .setColor("0xFFFF00")
         message.channel.send(embed);
         var embed = new Discord.RichEmbed()
+            .setTitle("DarkRP")
+            .setDescription("Nom : ----- \n IP : --.---.--.--- \n Slots : 50")
+            .setThumbnail("https://image.noelshack.com/fichiers/2018/32/7/1534104118-icons8-utilisateur-100.png")
+            .setColor("0xFFFF00")
+        message.channel.send(embed);
+        var embed = new Discord.RichEmbed()
             .setTitle("Metro 2033")
             .setDescription("Nom : ----- \n IP : --.---.--.--- \n Slots : 50")
             .setThumbnail("https://image.noelshack.com/fichiers/2018/32/7/1534071165-icons8-physique-100.png")
@@ -36,12 +42,6 @@ bot.on('message', message => {
             .setTitle("WesternRP")
             .setDescription("Nom : ----- \n IP : --.---.--.--- \n Slots : 50")
             .setThumbnail("https://image.noelshack.com/fichiers/2018/32/7/1534071207-icons8-musique-country-100.png")
-            .setColor("0xFFFF00")
-        message.channel.send(embed);
-        var embed = new Discord.RichEmbed()
-            .setTitle("StarWarsRP")
-            .setDescription("Nom : ----- \n IP : --.---.--.--- \n Slots : 50")
-            .setThumbnail("https://image.noelshack.com/fichiers/2018/32/7/1534071335-icons8-star-wars-100.png")
             .setColor("0xFFFF00")
         message.channel.send(embed);
         var embed = new Discord.RichEmbed()
