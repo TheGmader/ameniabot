@@ -50,6 +50,12 @@ bot.on('message', message => {
             .setThumbnail("https://image.noelshack.com/fichiers/2018/32/7/1534071363-icons8-zombi-100.png")
             .setColor("0xFFFF00")
         message.channel.send(embed);
+        var embed = new Discord.RichEmbed()
+            .setTitle("RustRP")
+            .setDescription("Nom : ----- \n IP : --.---.--.--- \n Slots : 50")
+            .setThumbnail("https://image.noelshack.com/fichiers/2018/33/3/1534356844-icons8-pioche-minecraft-100.png")
+            .setColor("0xFFFF00")
+        message.channel.send(embed);
     }
 
     if (message.content === prefix + "forum"){
